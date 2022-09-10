@@ -172,8 +172,8 @@ header.left {
   color: #FFF;
   background: #4A63E7;
   border-radius: 20px;
-  min-height: 620px;
-  max-height: 620px;
+  min-height: 700px;
+  max-height: 700px;
   top: 50px;
   overflow: hidden;
   position: fixed;
@@ -188,7 +188,7 @@ header.left {
   transition: all 0.3s ease-in-out;
 }
 header.left nav {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 header.left .header-inner {
   width: 100%;
@@ -942,7 +942,7 @@ section.padding-60 {
   background: #4A63E7;
   left: 0;
   top: 0;
-  opacity: 0.9;
+  opacity: 0;
   height: 100%;
   position: absolute;
   width: 100%;
