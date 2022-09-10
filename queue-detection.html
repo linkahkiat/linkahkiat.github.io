@@ -3,7 +3,7 @@
 <html lang="en-US">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>Bako - Personal Portfolio & Resume HTML Template</title>
+	<title>Project - Queue Detection</title>
 	<meta name="description" content="Bako - Personal Portfolio & Resume HTML Template">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link rel="shortcut icon" type="image/x-icon" href="https://via.placeholder.com/32x32">
@@ -46,23 +46,58 @@
 
         <!-- single portfolio -->
 		<section class="single-portfolio background-white rounded padding-50 shadow-blue mt-0">
-            <h2 class="archive-header">iPhone XS</h2>
+            <h2 class="archive-header">Queue Detection</h2>
             <!-- portfolio info -->
             <ul class="list-inline portfolio-info mb-0 mt-4">
-                <li class="list-inline-item"><i class="icon-user"></i>Envato Market</li>
-                <li class="list-inline-item"><i class="icon-calendar"></i>2018-2019</li>
-                <li class="list-inline-item"><i class="icon-link"></i><a href="http://envato.com" target="_blank">envato.com</a></li>
+                <li class="list-inline-item"><i class="icon-tag"></i>Python</li>
+                <li class="list-inline-item"><i class="icon-tag"></i>OpenCV</li>
+                <li class="list-inline-item"><i class="icon-tag"></i>Image Proccessing</li>
+                <li class="list-inline-item"><i class="icon-tag"></i>Machining Learning</li>
             </ul>
             <div class="spacer" data-height="40"></div>
             
             <!-- portfolio image -->
-            <img src="https://via.placeholder.com/800x600" alt="Portfolio-title">
+            <div style="padding-bottom: inherit;">
+                <img src="./images/projects/queue-detection/qu3.jpg" alt="Portfolio-title">
+            </div>
+            <div style="padding-bottom: inherit;">
+                <img src="./images/projects/queue-detection/qu5-5.jpg" alt="Portfolio-title">
+            </div>
+            
+            
 
             <!-- portfolio content -->
             <div class="portfolio-content mt-5">
                 <h3>Overview</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p><p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p><p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                <p>This is a program that able to detect the <strong>Queue Length</strong> and built using <strong>Python</strong> Programming. This tool able to measures the load on points of client service. Information about service load is useful in:</p>
+                <ul>
+                    <li>retail</li>
+                    <li>transportation (bus and railway stations, airports, subway stations)</li>
+                    <li>banks and companies without e-queuing systems</li>
+                    <li>entertainment and recreation establishments</li>
+                </ul>
+                <p>By knowing the line length, management can:</p>
+                <ul>
+                    <li>optimize employee work schedules</li>
+                    <li>redesign floor plans</li>
+                    <li>increase or decrease the number of points of service</li>
+                </ul>
+                <h3>How it Works</h3>
+                <p>The detection tool counts the number of people who are standing in line, based on the image from the video camera aimed at the line area.</p>
+                <ul>
+                    <li>Set an area in the video image in which the detection tool will count the number of standing people.</li>
+                    <li>Set multiple of line if there is multiple service counter.</li>
+                    <li>Result will show the number of people who are standing in the particular of the line.</li>
+                    <li>E.g. Line 1: 5; Line 2: 4; Line 3: 5; Line 4: 6</li>
+                </ul>
+                <h3>Addtional Note:</h3>
+                <ul>
+                    <li>Using Pretrained model: ResNet-50</li>
+                    <li>The model is a convolutional neural network that is 50 layers deep</li>
+                </ul>
+                <h3><a style="color: blue;" href="queue-detection-code.html"><u>Clik to view Sample Code</u></a></h3>
             </div>
+
         </section>
 		
 	</main>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Project - Queue Detection</title>
+    <meta name="description" content="Bako - Personal Portfolio & Resume HTML Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="https://via.placeholder.com/32x32">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/all.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/slick.css" type="text/css" media="all">
+    <!-- <link rel="stylesheet" href="css/simplebar.css" type="text/css" media="all"> -->
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- preloader -->
+    <div id="preloader">
+        <div class="outer">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- site wrapper -->
+    <div class="site-wrapper">
+
+        <my-header2></my-header2>
+
+        <!-- main content area -->
+        <main class="content float-right">
+
+            <!-- single portfolio -->
+            <section class="single-portfolio background-white rounded padding-50 shadow-blue mt-0">
+                <h2 class="archive-header">OEE Dashboard</h2>
+                <!-- portfolio info -->
+                <ul class="list-inline portfolio-info mb-0 mt-4">
+                    <li class="list-inline-item"><i class="icon-tag"></i>C#</li>
+                    <li class="list-inline-item"><i class="icon-tag"></i>Asp.net</li>
+                    <li class="list-inline-item"><i class="icon-tag"></i>Rest Api</li>
+                    <li class="list-inline-item"><i class="icon-tag"></i>Javascript</li>
+                    <li class="list-inline-item"><i class="icon-tag"></i>SQL</li>
+                </ul>
+                <div class="spacer" data-height="40"></div>
+
+                <!-- portfolio image -->
+                <div style="padding-bottom: inherit;">
+                    <img src="./images/saf1.png" alt="Portfolio-title">
+                </div>
+                <!--<div style="padding-bottom: inherit;">
+                    <img src="./images/projects/social-ads-forecasting/1.jpg" alt="Portfolio-title">
+                </div>-->
+
+
+
+                <!-- portfolio content -->
+                <div class="portfolio-content mt-5">
+                    <h3>Overview</h3>
+
+                    <p style="opacity: 1;">Understanding the key driving forces behind an effective marketing strategy
+                        is essential to getting out the most out of advertising budget for business growth. Through this
+                        <a
+                            href="https://github.com/theleadio/datascience_demo/blob/master/social-ads-raw.xlsx?raw=true">dataset</a>,
+                        I have the opportunity to use data science to evaluate the performance of ads on social media
+                        platforms like Google, Facebook and Instagram and then propose a suitable ads spending strategy.
+                    </p>
+
+
+
+                    <p style="opacity: 1;">Here comes a business question: <strong><em>Which social ads platforms
+                                (Google, Facebook or Instagram) would you invest in if you are given an allocation of
+                                RM100k advertising budget?</em></strong><br>And the business objective is
+                        to<br><strong><em>1. Suggest an ad spending strategy<br>2. Forecast sales based on the
+                                recommended ad spending on social media platforms.</em></strong></p>
+
+
+
+                    <p style="opacity: 1;">For the exploratory data analysis (EDA), a <strong>scatterplot with a
+                            regression line</strong> has been created
+                        using&nbsp;<em><strong>seaborn.regplot</strong></em> in Python to&nbsp;show the&nbsp;linear
+                        relationship between sales and each of the social media ads platform.</p>
+
+
+
+                    <figure class="wp-block-image size-full"><img loading="lazy" width="891" height="485"
+                            src="./images/projects/social-ads-forecasting/1.jpg" alt=""
+                            class="wp-image-323"
+                            srcset="./images/projects/social-ads-forecasting/1.jpg 891w, ./images/projects/social-ads-forecasting/1.jpg 768w"
+                            sizes="(max-width: 891px) 100vw, 891px" style="opacity: 1;"></figure>
+
+
+
+                    <p style="opacity: 1;">Besides having regression plots, I also used <strong>simple Linear Regression
+                            model</strong> to calculate the <strong>R-squared</strong> value of each social media ad to
+                        find out which ad is having the highest sales predictability.</p>
+
+
+
+                    <figure class="wp-block-table is-style-stripes">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Feature</strong></td>
+                                    <td><strong>R-Squared value</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>Google</td>
+                                    <td>0.61</td>
+                                </tr>
+                                <tr>
+                                    <td>Facebook</td>
+                                    <td>0.33</td>
+                                </tr>
+                                <tr>
+                                    <td>Instagram</td>
+                                    <td>0.05</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+
+
+
+                    <p style="opacity: 1;">In addition to R-squared, I also used <strong>multiple Linear Regression
+                            model</strong> to calculate the coefficient value of each feature.</p>
+
+
+
+                    <figure class="wp-block-table">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Feature</strong></td>
+                                    <td><strong>Co-efficient</strong></td>
+                                </tr>
+                                <tr>
+                                    <td>google</td>
+                                    <td>0.045744</td>
+                                </tr>
+                                <tr>
+                                    <td>facebook</td>
+                                    <td>0.187867</td>
+                                </tr>
+                                <tr>
+                                    <td>instagram</td>
+                                    <td>-0.001088</td>
+                                </tr>
+                                <tr>
+                                    <td>is_large</td>
+                                    <td>0.077397</td>
+                                </tr>
+                                <tr>
+                                    <td>rural</td>
+                                    <td>-0.053858</td>
+                                </tr>
+                                <tr>
+                                    <td>urban</td>
+                                    <td>0.214280</td>
+                                </tr>
+                                <tr>
+                                    <td>suburban</td>
+                                    <td>-0.160421</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </figure>
+
+
+
+                    <p style="opacity: 1;">I also managed to come out with a proposed ads spending strategy after
+                        performing the data exploratory and data modelling.</p>
+
+
+
+                    <ol>
+                        <li><strong><em>Due to highest predictability of sales from google ads, I will allocate 50% of
+                                    the budget for Google advertising.</em></strong></li>
+                        <li><strong><em>Since Instagram is having -negative coefficient, I will only allocate 10% for
+                                    Instagram advertising and the remaining 40% will be used for Facebook
+                                    advertising.</em></strong></li>
+                        <li><strong><em>In terms of targeting, I will focus on large market size and urban
+                                    area.</em></strong></li>
+                        <li><strong><em>With the mentioned budget allocations and targeting, the expected revenue is 65
+                                    Mil (assuming unit price is 5k).</em></strong></li>
+                    </ol>
+
+                    <h3>Addtional Note:</h3>
+                    <h3><a style="color: blue;" href="social-ads-forecasting-code.html"><u>Clik to view Sample Code</u></a></h3>
+
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- Go to top button -->
+    <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/infinite-scroll.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
