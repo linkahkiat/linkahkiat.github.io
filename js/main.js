@@ -9,7 +9,7 @@ class MyHeader extends HTMLElement {
         <span></span>
     </button>
     <a href="index.html" class="logo"><img src="./images/2.png" alt="Ken" /></a>
-    <a href="index.html" class="site-title dot ml-2">Bako Doe</a>
+    <a href="index.html" class="site-title dot ml-2">Kah Kiat</a>
 </div>
 
 <!-- header -->
@@ -74,7 +74,7 @@ class MyHeader2 extends HTMLElement {
 			<span></span>
 		</button>
 		<a href="index.html" class="logo"><img src="./images/2.png" alt="Ken" /></a>
-		<a href="index.html" class="site-title dot ml-2">Bako Doe</a>
+		<a href="index.html" class="site-title dot ml-2">Kah Kiat</a>
 	</div>
 
     <!-- header -->
