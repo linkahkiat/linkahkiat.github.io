@@ -31,7 +31,7 @@ class MyHeader extends HTMLElement {
                 <li><a href="#about"><i class="icon-user"></i>About</a></li>
                 <li><a href="#programming"><i class="icon-bulb"></i>Programming Skills</a></li>
                 <li><a href="#technical"><i class="icon-bulb"></i>Technical Skills</a></li>
-                <li><a href="#education"><i class="icon-graduation"></i>Eduction</a></li>
+                <li><a href="#education"><i class="icon-graduation"></i>Education</a></li>
                 <li><a href="#experience"><i class="icon-briefcase"></i>Experience</a></li>
                 <li><a href="#works"><i class="icon-grid"></i>Project/Works</a></li>
                 <li><a href="#awards"><i class=" icon-trophy"></i>Awards/Certificates</a></li>
@@ -96,7 +96,7 @@ class MyHeader2 extends HTMLElement {
                     <li><a href="index.html#about"><i class="icon-user"></i>About</a></li>
                     <li><a href="index.html#programming"><i class="icon-bulb"></i>Programming Skills</a></li>
                     <li><a href="index.html#technical"><i class="icon-bulb"></i>Technical Skills</a></li>
-                    <li><a href="index.html#education"><i class="icon-graduation"></i>Eduction</a></li>
+                    <li><a href="index.html#education"><i class="icon-graduation"></i>Education</a></li>
                     <li><a href="index.html#experience"><i class="icon-briefcase"></i>Experience</a></li>
                     <li><a href="index.html#works"><i class="icon-grid"></i>Project/Works</a></li>
                     <li><a href="index.html#awards"><i class=" icon-trophy"></i>Awards/Certificates</a></li>
