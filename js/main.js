@@ -22,7 +22,6 @@ class MyHeader extends HTMLElement {
         <a href="index.html" class="site-title dot mt-3">Lin Kah Kiat</a>
 	<span class="site-slogan">System Engineer</span>
 	<span class="site-slogan">Integration Engineer</span>
-        <span class="site-slogan">Software Engineer</span>
         <span class="site-slogan">Web Application Developer</span>
         
         <!-- navigation menu -->
