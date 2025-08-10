@@ -52,7 +52,7 @@ class MyHeader extends HTMLElement {
             </ul>
             -->
             <!-- copyright -->
-            <span class="copyright">© 2022 Ken Lin</span>
+            <span class="copyright">© 2025 KK Lin</span>
         </div>
     </div>
 </header>
@@ -124,6 +124,7 @@ class MyHeader2 extends HTMLElement {
     }
 }
 customElements.define('my-header2',MyHeader2);
+
 
 
 
