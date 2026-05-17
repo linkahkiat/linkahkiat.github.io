@@ -813,6 +813,19 @@
 <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
 
 <!-- SCRIPTS -->
+<script>
+(function () {
+function hide() {
+var p = document.getElementById('preloader');
+if (p) p.style.display = 'none';
+}
+document.addEventListener('DOMContentLoaded', hide); // hide as soon as DOM is ready
+window.addEventListener('load', hide); // also hide after full load if it happens
+setTimeout(hide, 5000); // fallback in case something hangs
+})();
+</script>
+
+<!-- SCRIPTS -->
 <script src="js/jquery-1.12.3.min.js"></script>
 <script src="js/jquery.easing.min.js"></script>
 <script src="js/popper.min.js"></script>
